@@ -10,7 +10,7 @@ public class MoreTotems implements ModInitializer {
     public static final String modid = "moretotems";
 	public static final Item SLIMY_TOTEM = new Item(new FabricItemSettings().maxCount(1));
 	public static final Item BLAZING_TOTEM = new Item(new FabricItemSettings().maxCount(1));
-	public static final Item DOUBLE_BLAZEROD = new Item(new FabricItemSettings().maxCount(1));
+	public static final Item DOUBLE_BLAZEROD = new Item(new FabricItemSettings().maxCount(32));
 	public static final Item ROTTEN_TOTEM = new Item(new FabricItemSettings().maxCount(1));
 	public static final ItemGroup GROUP = FabricItemGroupBuilder.create(new Identifier(modid, "group"))
 			.icon(() -> new ItemStack(ROTTEN_TOTEM))
