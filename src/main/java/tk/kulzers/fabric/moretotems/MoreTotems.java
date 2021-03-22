@@ -11,6 +11,7 @@ public class MoreTotems implements ModInitializer {
 	public static final Item SLIMY_TOTEM = new Item(new FabricItemSettings().maxCount(1));
 	public static final Item BLAZING_TOTEM = new Item(new FabricItemSettings().maxCount(1));
 	public static final Item DOUBLE_BLAZEROD = new Item(new FabricItemSettings().maxCount(32));
+	public static final Item BELT_BUCKLE = new Item(new FabricItemSettings().maxCount(16));
 	public static final Item NOARMTOTEM = new Item(new FabricItemSettings().maxCount(8));
 	public static final Item ROTTEN_TOTEM = new Item(new FabricItemSettings().maxCount(1));
 	public static final ItemGroup GROUP = FabricItemGroupBuilder.create(new Identifier(modid, "group"))
@@ -27,6 +28,7 @@ public class MoreTotems implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier(modid, "slimy_totem"), SLIMY_TOTEM);
 		Registry.register(Registry.ITEM, new Identifier(modid, "blazing_totem"), BLAZING_TOTEM);
         Registry.register(Registry.ITEM, new Identifier(modid, "double_blaze_rods"), DOUBLE_BLAZEROD);
+      	Registry.register(Registry.ITEM, new Identifier(modid, "belt_buckle"), BELT_BUCKLE);
         Registry.register(Registry.ITEM, new Identifier(modid, "totemnoarm"), NOARMTOTEM);
         Registry.register(Registry.ITEM, new Identifier(modid, "rotten_totem"), ROTTEN_TOTEM);
 	}
